@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#171218">
+  <title>Studio Sensuelle — Révélez votre mouvement</title>
+  <meta name="description" content="Une école digitale de danse sensuelle, de mouvement et d'expression corporelle.">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #171218;
+      color: #f4eee9;
+      font-family: Georgia, serif;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 24px 7%;
+      border-bottom: 1px solid #453744;
+    }
+
+    .logo {
+      font-size: 19px;
+      letter-spacing: 3px;
+      color: #e6d4c8;
+    }
+
+    .menu {
+      color: #c9a8c5;
+      font: 12px Arial, sans-serif;
+      letter-spacing: 2px;
+    }
+
+    .hero {
+      min-height: 78vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 70px 9%;
+      background:
+        linear-gradient(90deg, rgba(23,18,24,.97), rgba(23,18,24,.65)),
+        radial-gradient(ellipse at 80% 50%, #68445f, #171218 65%);
+    }
+
+    .eyebrow {
+      color: #d5a9c8;
+      font: 11px Arial, sans-serif;
+      letter-spacing: 4px;
+      margin-bottom: 25px;
+    }
+
+    h1 {
+      font-size: clamp(43px, 9vw, 82px);
+      font-weight: normal;
+      line-height: 1.08;
+      max-width: 720px;
+    }
+
+    h1 em { color: #d5a9c8; }
+
+    .intro {
+      font: 15px/1.8 Arial, sans-serif;
+      color: #d0c4cd;
+      max-width: 460px;
+      margin: 27px 0 35px;
+    }
+
+    .cta {
+      display: inline-block;
+      width: fit-content;
+      padding: 16px 25px;
+      background: #d5a9c8;
+      color: #211722;
+      text-decoration: none;
+      font: 12px Arial, sans-serif;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    section.disciplines {
+      padding: 75px 8%;
+      text-align: center;
+    }
+
+    .section-title {
+      font-size: 36px;
+      font-weight: normal;
+      margin-bottom: 15px;
+    }
+
+    .section-text {
+      font: 14px/1.7 Arial, sans-serif;
+      color: #bfb0bd;
+      margin-bottom: 35px;
+    }
+
+    .courses {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 14px;
+    }
+
+    .course {
+      border: 1px solid #554354;
+      padding: 35px 15px;
+      color: #e7d8e3;
+      font-size: 23px;
+      background: #211a24;
+    }
+
+    .course small {
+      display: block;
+      margin-top: 12px;
+      color: #bba9b9;
+      font: 11px Arial, sans-serif;
+      letter-spacing: 1px;
+    }
+
+    footer {
+      padding: 30px 8%;
+      border-top: 1px solid #453744;
+      color: #a99aa8;
+      text-align: center;
+      font: 11px Arial, sans-serif;
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">STUDIO SENSUELLE</div>
+    <div class="menu">L'ÉCOLE DU MOUVEMENT</div>
+  </header>
+
+  <main>
+    <div class="hero">
+      <p class="eyebrow">DANSE · EXPRESSION · CONFIANCE</p>
+
+      <h1>Habitez votre corps.<br>
+      Révélez votre <em>mouvement.</em></h1>
+
+      <p class="intro">
+        Un espace pour explorer votre sensualité,
+        développer votre expression corporelle et
+        découvrir le plaisir de danser librement.
+      </p>
+
+      <a class="cta" href="#disciplines">Découvrir l'école</a>
+    </div>
+
+    <section class="disciplines" id="disciplines">
+      <p class="eyebrow">EXPLOREZ VOTRE UNIVERS</p>
+      <h2 class="section-title">Votre mouvement, vos règles.</h2>
+      <p class="section-text">
+        Des disciplines complémentaires pour apprendre,
+        progresser et prendre plaisir à bouger.
+      </p>
+
+      <div class="courses">
+        <div class="course">Heels<small>TECHNIQUE & ATTITUDE</small></div>
+        <div class="course">Sensual Dance<small>FLUIDITÉ & EXPRESSION</small></div>
+        <div class="course">Chair Dance<small>FORCE & CRÉATIVITÉ</small></div>
+        <div class="course">Floorwork<small>MOUVEMENT AU SOL</small></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    STUDIO SENSUELLE · LE CORPS EN MOUVEMENT
+  </footer>
+
+</body>
+</html>
